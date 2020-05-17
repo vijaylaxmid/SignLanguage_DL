@@ -1,0 +1,5 @@
+.DS_Store
+ENV
+Yolo_mark
+data/**/yolo
+data/**/models

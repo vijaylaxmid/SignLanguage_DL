@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+.video-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#video-container {
+  position: relative;
+}
+
+#video-container canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+#video-container .caption {
+  position: absolute;
+  bottom: 0px;
+  height: 40px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: white;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+header {
+  border-bottom: solid 1px #eaeaea;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.logo-healthhack {
+  max-width: 160px;
+}
