@@ -8,6 +8,10 @@ Hand gesture is one of the methods used in sign language for non-verbal communic
 
 The live demo of our app is under docs folder in the repository.
 
+## Project Documentation
+
+The Report and the Presentation for our app is under docs folder in the repository.
+
 ## Setup
 
 -   `conda create -n myenv python=3.6`
